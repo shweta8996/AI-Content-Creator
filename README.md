@@ -21,9 +21,9 @@ The **AI Video Generator** is a tool that automates the process of generating a 
 3. Install dependencies using:
    ```sh
    npm install
-   
-## Usage
-USER_PROMPT="Your input text here" OPENAI_API_KEY="your-api-key" node script.js
+4. Usage
+   ```sh
+   USER_PROMPT="Your input text here" OPENAI_API_KEY="your-api-key" node script.js
 
 ## Workflow
 ### Transcript Creation
@@ -42,5 +42,5 @@ Stitches the images together with the audio to create a final video output.
 4. ffmpeg-static - For video processing.
 5. dotenv - For loading environment variables.
 
-### Output
+## Output
 The generated video will be saved as output_video.mp4 in the project directory.
