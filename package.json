@@ -5,7 +5,7 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "test": "node script.js"
+        "test": "npm install && USER_PROMPT=\"$USER_PROMPT\" OPENAI_API_KEY=\"$OPENAI_API_KEY\" node script.js"
     },
     "keywords": [],
     "author": "",
