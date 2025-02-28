@@ -4,8 +4,7 @@ Description: Generate an AI-powered video by creating a transcript, converting i
 Param: user_prompt: The input text to generate the transcript from.
 Param: openai_api_key: The OpenAI API key to be used in the script.
 
-#!/usr/bin/env sh
-USER_PROMPT="$user_prompt" OPENAI_API_KEY="$openai_api_key" npm ${GPTSCRIPT_TOOL_DIR} run test
+#!/usr/bin/env USER_PROMPT="$user_prompt" OPENAI_API_KEY="$openai_api_key" npm --prefix ${GPTSCRIPT_TOOL_DIR} run test
 
 ---
 !metadata:*:category
